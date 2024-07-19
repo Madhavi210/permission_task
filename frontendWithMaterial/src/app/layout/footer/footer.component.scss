@@ -1,0 +1,25 @@
+.footer-section {
+    background-color: #c2185b;
+    color: white;
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .spacer {
+      flex: 1;
+    }
+  
+    a.mat-icon-button {
+      color: white;
+  
+      &:hover {
+        background-color: #a7426a;
+        color: white
+      }
+    }
+  }
+  
